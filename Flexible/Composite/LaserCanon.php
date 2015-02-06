@@ -4,7 +4,7 @@ namespace Flexible\Composite;
 
 class LaserCanon extends Unit
 {
-	function bombardStrength() {
+	public function bombardStrength() {
 		return 44;
 	}
 }
