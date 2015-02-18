@@ -3,10 +3,9 @@
 /** @noinspection PhpIncludeInspection */
 require_once 'autoload.php';
 
-use Corporate\base\RequestRegistry;
+use Corporate\controller\Controller;
 
-$registry = RequestRegistry::instance();
-
+Controller::run();
 
 echo PHP_EOL;
 
